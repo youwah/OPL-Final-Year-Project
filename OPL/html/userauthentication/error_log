@@ -1,0 +1,51 @@
+[25-Jan-2022 23:04:48 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php:2142
+Stack trace:
+#0 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php(1953): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php(1635): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 25 J...', 'We have receive...')
+#2 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php(1468): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/sendEmail.php(105): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/sendEmail.php(24): sendEmail('chingsen789@gma...', 'cZEPM678')
+#5 {main}
+  thrown in /home8/crimsonw/public_html/s271738/webstar/html/userauthentication/PHPMailer/PHPMailer.php on line 2142
+[20-Apr-2022 16:19:37 Asia/Kuala_Lumpur] PHP Warning:  require(/home8/crimsonw/public_html/s271738/OPL/html/userauthentication/PHPMailer/Exception.php): failed to open stream: No such file or directory in /home8/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[20-Apr-2022 16:19:37 Asia/Kuala_Lumpur] PHP Warning:  require(/home8/crimsonw/public_html/s271738/OPL/html/userauthentication/PHPMailer/Exception.php): failed to open stream: No such file or directory in /home8/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[20-Apr-2022 16:19:37 Asia/Kuala_Lumpur] PHP Fatal error:  require(): Failed opening required '/home8/crimsonw/public_html/s271738/OPL/html/userauthentication/PHPMailer/Exception.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home8/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[20-Apr-2022 16:20:01 Asia/Kuala_Lumpur] PHP Warning:  require(/home8/crimsonw/public_html/s271738/OPL/html/userauthentication/PHPMailer/Exception.php): failed to open stream: No such file or directory in /home8/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[20-Apr-2022 16:20:01 Asia/Kuala_Lumpur] PHP Warning:  require(/home8/crimsonw/public_html/s271738/OPL/html/userauthentication/PHPMailer/Exception.php): failed to open stream: No such file or directory in /home8/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[20-Apr-2022 16:20:01 Asia/Kuala_Lumpur] PHP Fatal error:  require(): Failed opening required '/home8/crimsonw/public_html/s271738/OPL/html/userauthentication/PHPMailer/Exception.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home8/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[21-Apr-2022 00:04:47 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected end of file in /home8/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 140
+[09-May-2022 15:09:10 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/verify.php on line 4
+[09-May-2022 15:59:59 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/verify.php on line 19
+[09-May-2022 16:00:29 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/verify.php on line 19
+[09-May-2022 16:01:09 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/verify.php on line 19
+[09-May-2022 16:02:10 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/verify.php on line 19
+[09-May-2022 18:13:21 UTC] PHP Warning:  require(/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[09-May-2022 18:13:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[09-May-2022 18:15:21 UTC] PHP Warning:  require(/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[09-May-2022 18:15:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[09-May-2022 18:16:42 UTC] PHP Warning:  require(/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[09-May-2022 18:16:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[10-May-2022 05:10:53 UTC] PHP Warning:  require(/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[10-May-2022 05:10:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[10-May-2022 05:13:30 UTC] PHP Warning:  require(/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[10-May-2022 05:13:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[10-May-2022 05:13:43 UTC] PHP Warning:  require(/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php): Failed to open stream: No such file or directory in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
+[10-May-2022 05:13:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home8/crimsonw/public_html/s272043/OPL/html/userauthentication/PHPMailer/Exception.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crimsonw/public_html/s272043/OPL/html/userauthentication/sendEmail.php on line 6
